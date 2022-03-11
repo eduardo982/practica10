@@ -1,0 +1,47 @@
+header{
+    
+    padding-bottom: 50px;
+    border-bottom: solid black 3px;
+}
+p{
+    padding-top: 15px;
+    float: left;
+}
+img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+h1{
+    justify-content: center;
+    flex-direction: column;
+    color: blue;
+}
+#list{
+    float: right;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#i2{
+    margin-top: 0px;
+    width: 960px;
+    height: 200px;
+}
+#i3{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    border: solid green 3px;
+}
+.imagenes{
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+}
